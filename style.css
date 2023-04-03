@@ -1,0 +1,114 @@
+.sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #0a0a0a; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+    color: #1c657d;
+  }
+  
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+
+  .sidebar a:hover {
+    color: #eae5e5;
+  }
+  
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  
+  #main {
+    transition: margin-left .5s; 
+    padding: 20px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  h1{
+    text-align: center;
+    color:white;
+  }
+
+
+img{
+    height: 360px;
+    border-radius: 30px;
+    padding: 10px;
+}
+main{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: normal;
+    padding: 20px;
+    overflow: hidden;
+    left: 30%;
+    top: 10%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    align-items: flex-end;
+    background-color: #1c657d;
+    transition: transform .2s;
+
+
+}
+body{
+    background-color: #1c657d;
+     overflow-y: hidden;
+     overflow-x: scroll;   
+} 
+
+#bt{
+    background-color:black;
+    box-shadow: none;
+
+} 
+
+#bt:hover{
+    background-color: gray;
+}
+
+main :hover{
+    transition: 2s;
+    transform:scale(1.1);;
+}
+
+
+
